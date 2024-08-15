@@ -1,7 +1,15 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family:"poppins";
+  font-weight: "bold";
+}
+
 .h1part1 {
   font-size: 46px;
   text-align: center;
-  font-family: monotype corsiva, Sans-Serif;
+  padding: 40px 100px;
 }
 
 .p-part1 {
@@ -17,7 +25,6 @@
 
 .ref1 {
   padding: 5px 10px;
-  font-size: 25px;
 }
 
 .style2 {
@@ -27,11 +34,20 @@
 
 .ref2 {
   text-align: center;
-  background-color: red;
-  color: white;
+  background: transparent;
+  color: black;
   padding: 15px 30px;
   margin-top: 100px;
-  height: 30px
+  height: 30px;
+  text-decoration: none;
+  border-radius: 40px;
+  border: 2px solid #000;
+  transition: .5s;
+}
+
+.ref2:hover {
+  background-color: #000;
+  color: #fff;
 }
 
 .img1 {
@@ -47,9 +63,19 @@
 }
 
 .ref3 {
-  background-color: red;
-  color: white;
+  text-align: center;
+  background: transparent;
+  color: black;
   padding: 15px 30px;
   margin-top: 100px;
-  height: 30px
+  height: 30px;
+  text-decoration: none;
+  border-radius: 40px;
+  border: 2px solid #000;
+  transition: .5s;
+}
+
+.ref3:hover{
+  background-color: #000;
+  color: #fff;
 }
